@@ -1,0 +1,20 @@
+.social-icons {
+  text-align: center;
+  margin-top: 10px;
+
+  a {
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 1.5em;
+  }
+}
+
+// New global font style
+body, html {
+  font-family: Arial, sans-serif !important;
+}
+
+// Optional: If you want to ensure all elements use Arial
+* {
+  font-family: inherit;
+}

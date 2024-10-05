@@ -9,13 +9,17 @@ profile:
   image: selfie.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <div class="social-icons">
+      <a href="https://scholar.google.com/citations?user=hc_e7rsAAAAJ&hl=en" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+      <a href="https://www.linkedin.com/in/cheng-kuang-wu-062214219/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://x.com/brianckwu" target="_blank" title="X"><i class="fab fa-x-twitter"></i></a>
+      <a href="https://github.com/Brian-Ckwu" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+    </div>
+
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 ---
 
 # About Me
