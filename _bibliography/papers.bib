@@ -1,6 +1,100 @@
 ---
 ---
 
+@article{tam2024let,
+  abbr={EMNLP 2024},
+  abstract={Structured generation, the process of producing content in standardized formats like JSON and XML, is widely utilized in real-world applications to extract key output information from large language models (LLMs). This study investigates whether such constraints on generation space impact LLMs abilities, including reasoning and domain knowledge comprehension. Specifically, we evaluate LLMs performance when restricted to adhere to structured formats versus generating free-form responses across various common tasks. Surprisingly, we observe a significant decline in LLMs reasoning abilities under format restrictions. Furthermore, we find that stricter format constraints generally lead to greater performance degradation in reasoning tasks.},
+  pdf={https://arxiv.org/pdf/2408.02442},
+  code={https://github.com/appier-research/structure-gen},
+  bibtex_show={true},
+  title={Let me speak freely? a study on the impact of format restrictions on performance of large language models},
+  author={Tam*, Zhi Rui and Wu*, Cheng-Kuang and Tsai, Yi-Lin and Lin, Chieh-Yen and Lee, Hung-yi and Chen, Yun-Nung},
+  journal={arXiv preprint arXiv:2408.02442},
+  year={2024},
+  preview={let_me_speak_freely.png},
+  selected={true},
+  additional_info={. EMNLP 2024 (Industry Track)}
+}
+
+@article{wu2024need,
+  abbr={EMNLP 2024},
+  abstract={This study explores the proactive ability of LLMs to seek user support. We propose metrics to evaluate the trade-off between performance improvements and user burden, and investigate whether LLMs can determine when to request help under varying information availability. Our experiments show that without external feedback, many LLMs struggle to recognize their need for user support. The findings highlight the importance of external signals and provide insights for future research on improving support-seeking strategies.},
+  pdf={https://arxiv.org/pdf/2407.14767},
+  code={https://github.com/appier-research/i-need-help},
+  bibtex_show={true},
+  title={I Need Help! Evaluating LLM's Ability to Ask for Users' Support: A Case Study on Text-to-SQL Generation},
+  author={Wu*, Cheng-Kuang and Tam*, Zhi Rui and Wu, Chao-Chung and Lin, Chieh-Yen and Lee, Hung-yi and Chen, Yun-Nung},
+  journal={arXiv preprint arXiv:2407.14767},
+  year={2024},
+  preview={i_need_help.png},
+  selected={true},
+  additional_info={. EMNLP 2024 (Main Track)}
+}
+
+@article{wu2024streambench,
+  abbr={NeurIPS 2024},
+  abstract={Recent works have shown that large language model (LLM) agents are able to improve themselves from experience, which is an important ability for continuous enhancement post-deployment. However, existing benchmarks primarily evaluate their innate capabilities and do not assess their ability to improve over time. To address this gap, we introduce StreamBench, a pioneering benchmark designed to evaluate the continuous improvement of LLM agents over an input-feedback sequence. StreamBench simulates an online learning environment where LLMs receive a continuous flow of feedback stream and iteratively enhance their performance. In addition, we propose several simple yet effective baselines for improving LLMs on StreamBench, and provide a comprehensive analysis to identify critical components that contribute to successful streaming strategies. Our work serves as a stepping stone towards developing effective online learning strategies for LLMs, paving the way for more adaptive AI systems in streaming scenarios.},
+  pdf={https://arxiv.org/pdf/2406.08747},
+  code={https://github.com/stream-bench/stream-bench},
+  bibtex_show={true},
+  title={StreamBench: Towards Benchmarking Continuous Improvement of Language Agents},
+  author={Wu*, Cheng-Kuang and Tam*, Zhi Rui and Lin, Chieh-Yen and Chen, Yun-Nung and Lee, Hung-yi},
+  journal={arXiv preprint arXiv:2406.08747},
+  year={2024},
+  preview={streambench.png},
+  selected={true},
+  additional_info={. NeurIPS 2024 (Datasets and Benchmarks)}
+}
+
+@article{wei2024unveiling,
+  abbr={ACL 2024},
+  abstract={In this paper, we investigate the phenomena of "selection biases" in Large Language Models (LLMs), focusing on problems where models are tasked with choosing the optimal option from an ordered sequence. We delve into biases related to option order and token usage, which significantly impact LLMs' decision-making processes. We also quantify the impact of these biases through an extensive empirical analysis across multiple models and tasks. Furthermore, we propose mitigation strategies to enhance model performance. Our key contributions are threefold: 1) Precisely quantifying the influence of option order and token on LLMs, 2) Developing strategies to mitigate the impact of token and order sensitivity to enhance robustness, and 3) Offering a detailed analysis of sensitivity across models and tasks, which informs the creation of more stable and reliable LLM applications for selection problems.},
+  pdf={https://arxiv.org/pdf/2406.03009},
+  bibtex_show={true},
+  title={Unveiling Selection Biases: Exploring Order and Token Sensitivity in Large Language Models},
+  author={Wei, Sheng-Lun and Wu, Cheng-Kuang and Huang, Hen-Hsen and Chen, Hsin-Hsi},
+  journal={arXiv preprint arXiv:2406.03009},
+  year={2024}
+}
+
+@inproceedings{chen2023self,
+  abbr={EMNLP 2023},
+  abstract={Large language models (LLMs) have exhibited striking in-context learning (ICL) ability to adapt to target tasks with a few input-output demonstrations. For better ICL, different methods are proposed to select representative demonstrations from existing training corpora. However, such settings are not aligned with real-world practices, as end-users usually query LMs without access to demonstration pools. In this work, we introduce Self-ICL -- a simple framework which bootstraps LMs' intrinsic capabilities to perform zero-shot ICL. Given a test input, Self-ICL first prompts the model to generate pseudo-inputs. Next, the model predicts pseudo-labels for the pseudo-inputs via zero-shot prompting. Finally, we perform ICL for the test input with the pseudo-input-label pairs as demonstrations. Evaluation on 23 BIG-Bench Hard tasks shows Self-ICL outperforms zero-shot baselines on both average accuracy and head-to-head comparison. Moreover, with zero-shot chain-of-thought, Self-ICL achieves results comparable to using real demonstrations. Additionally, we conduct a range of analyses to validate Self-ICL's effectiveness and provide insights for its behaviors under different settings.},
+  pdf={https://arxiv.org/pdf/2305.15035},
+  code={https://github.com/ntunlplab/Self-ICL},
+  bibtex_show={true},
+  title={Self-ICL: Zero-Shot In-Context Learning with Self-Generated Demonstrations},
+  author={Chen*, Wei-Lin and Wu*, Cheng-Kuang and Chen, Yun-Nung and Chen, Hsin-Hsi},
+  booktitle={Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+  pages={15651--15662},
+  year={2023}
+}
+
+@inproceedings{chen2023fidelity,
+  abbr={EMNLP 2023},
+  abstract={In this paper, we address the hallucination problem commonly found in natural language generation tasks. Language models often generate fluent and convincing content but can lack consistency with the provided source, resulting in potential inaccuracies. We propose a new decoding method called Fidelity-Enriched Contrastive Search (FECS), which augments the contrastive search framework with context-aware regularization terms. FECS promotes tokens that are semantically similar to the provided source while penalizing repetitiveness in the generated text. We demonstrate its effectiveness across two tasks prone to hallucination: abstractive summarization and dialogue generation. Results show that FECS consistently enhances faithfulness across various language model sizes while maintaining output diversity comparable to well-performing decoding algorithms.},
+  pdf={https://arxiv.org/pdf/2310.14981},
+  code={https://github.com/ntunlplab/FECS},
+  bibtex_show={true},
+  title={Fidelity-Enriched Contrastive Search: Reconciling the Faithfulness-Diversity Trade-Off in Text Generation},
+  author={Chen, Wei-Lin and Wu, Cheng-Kuang and Chen, Hsin-Hsi and Chen, Chung-Chi},
+  booktitle={Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+  pages={843--851},
+  year={2023}
+}
+
+@inproceedings{chen2023zara,
+  abbr={EMNLP 2023},
+  abstract={Language models (LMs) that jointly generate end-task answers as well as free-text rationales are known as self-rationalization models. Recent works demonstrate great performance gain for self-rationalization by few-shot prompting LMs with rationale-augmented exemplars. However, the ability to benefit from explanations only emerges with large-scale LMs, which have poor accessibility. In this work, we explore the less-studied setting of leveraging explanations for small LMs to improve few-shot self-rationalization. We first revisit the relationship between rationales and answers. Inspired by the implicit mental process of how human beings assess explanations, we present a novel approach, Zero-shot Augmentation of Rationale-Answer pairs (ZARA), to automatically construct pseudo-parallel data for self-training by reducing the problem of plausibility judgement to natural language inference. Experimental results show ZARA achieves SOTA performance on the FEB benchmark, for both the task accuracy and the explanation metric. In addition, we conduct human and quantitative evaluation validating ZARA's ability to automatically identify plausible and accurate rationale-answer pairs.},
+  pdf={https://arxiv.org/pdf/2305.07355},
+  bibtex_show={true},
+  title={ZARA: Improving Few-Shot Self-Rationalization for Small Language Models},
+  author={Chen, Wei-Lin and Yen, An-Zi and Wu, Cheng-Kuang and Huang, Hen-Hsen and Chen, Hsin-Hsi},
+  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2023},
+  pages={4682--4693},
+  year={2023}
+}
+
 @article{wu2023large,
   abbr={ICLR 2023},
   abstract={We explore the extension of chain-of-thought (CoT) prompting to medical reasoning for the task of automatic diagnosis. Motivated by doctors' underlying reasoning process, we present Diagnostic-Reasoning CoT (DR-CoT). Empirical results demonstrate that by simply prompting large language models trained only on general text corpus with two DR-CoT exemplars, the diagnostic accuracy improves by 15% comparing to standard prompting. Moreover, the gap reaches a pronounced 18% in out-domain settings. Our findings suggest expert-knowledge reasoning in large language models can be elicited through proper promptings.},
@@ -12,56 +106,4 @@
   journal={arXiv preprint arXiv:2307.08922},
   year={2023},
   additional_info={. ICLR 2023 (Tiny Papers)}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
 }

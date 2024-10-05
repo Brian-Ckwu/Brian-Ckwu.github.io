@@ -7,7 +7,7 @@ subtitle: Research Scientist, Appier AI Research
 profile:
   align: right
   image: selfie.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
     <div class="social-icons">
       <a href="https://scholar.google.com/citations?user=hc_e7rsAAAAJ&hl=en" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
@@ -18,7 +18,7 @@ profile:
 
 
 news: false # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
@@ -28,7 +28,7 @@ I am a full-time research scientist at [Appier](https://www.appier.com/en/) AI R
 # Research Interests
 I am broadly interested in the fields of natural language processing (NLP), deep learning (DL), and their relationships with human cognition.
 Recently, I am especially intrigued by the mysteries behind large language models (LLMs), and find the works that discover their surprising properties most exciting.
-Some of my favorite works include:
+Some of my favorite works:
 - [Physics of Language Models](https://physics.allen-zhu.com/) (Allen-Zhu et al., 2024)
 - [Rethinking the Role of Demonstrations](https://arxiv.org/abs/2202.12837) (Min et al., 2022)
 - [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165) (Brown et al., 2020)
