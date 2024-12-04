@@ -28,10 +28,10 @@ I am a full-time research scientist at [Appier](https://www.appier.com/en/) AI R
 # Research Interests
 I am broadly interested in the fields of natural language processing (NLP), deep learning (DL), and their relationships with human cognition.
 Recently, I am especially intrigued by the mysteries behind large language models (LLMs), and find the works that discover their surprising properties most exciting.
-Some of my favorite works:
+Some of my recent favorite works:
+- [Reverse Thinking Makes LLMs Stronger Reasoners](https://arxiv.org/abs/2411.19865) (Chen et al., 2024)
+- [What Do Learning Dynamics Reveal About Generalization in LLM Reasoning?](https://arxiv.org/abs/2411.07681) (Kang et al., 2024)
 - [Physics of Language Models](https://physics.allen-zhu.com/) (Allen-Zhu et al., 2024)
-- [Rethinking the Role of Demonstrations](https://arxiv.org/abs/2202.12837) (Min et al., 2022)
-- [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165) (Brown et al., 2020)
 
 In line with the above interests, my long-term research goal is to uncover how these models store, retrieve, and manipulate knowledge, as well as how they perform reasoning.
 I believe that this research direction would deepen our understanding of the nature of intelligence.
