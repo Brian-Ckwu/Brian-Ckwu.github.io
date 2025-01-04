@@ -23,9 +23,6 @@ def get_post_content(file_path):
 
 def post_to_twitter(content):
     """Post to Twitter using API v2."""
-    if 'twitter' not in content['social_media']:
-        return
-
     client = tweepy.Client(
         consumer_key=os.environ['TWITTER_API_KEY'],
         consumer_secret=os.environ['TWITTER_API_SECRET'],
