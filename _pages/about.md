@@ -26,10 +26,19 @@ social: false # includes social icons at the bottom of the page
 I am a full-time research scientist at [Appier](https://www.appier.com/en/) AI Research Team, where I work with advisors Prof. [Yun-Nung Chen](https://www.csie.ntu.edu.tw/~yvchen/) and Prof. [Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.php). Previously, I earned my Master's degree in Computer Science at National Taiwan University (NTU), where I was advised by Prof. [Hsin-Hsi Chen](https://scholar.google.com/citations?user=CRth4q4AAAAJ&hl=en), leader of the [NLPLab](https://nlg.csie.ntu.edu.tw/). I am also a licensed medical doctor, having obtained my Doctor of Medicine (M.D.) degree from NTU.
 
 ## Research Interests
-🛠️ Currently under construction...
+My research is guided by a simple philosophy: all human beings deserve to flourish and realize their full potential, and artificial intelligence (AI) has the potential to achieve this ideal.
+Therefore, I believe that AI research should not only be innovative, but also purposefully aligned with benefits to humanity.
+My research interests center on two tightly coupled directions:
+
+1. Capability: developing AI systems powerful enough to address the complex challenges humans will face; and
+2. Safety, reliability, and robustness: ensuring such powerful systems behave in aligned, trustworthy, and dependable ways across diverse scenarios.
+
+I view advanced AI as a transformative technology with both tremendous upside and existential risk, making it the most important technical problem of our time.
+Progress therefore requires advancing capability and safety in tandem, with careful preparation for rapidly increasing capabilities.
+Concretely, I study fundamental roadblocks to capable AI, such as [continual learning](https://arxiv.org/abs/2406.08747) and [uncertainty awareness](https://arxiv.org/abs/2503.01332), and the [robustness issues](https://aclanthology.org/2024.emnlp-industry.91/) that need to be addressed alongside these advances.
 
 ## Recent Favorite Works
-To give a concrete sense of my research tastes, here are some of my recent favorite works:
+To give a concrete sense of my research tastes, here are some of my favorite works:
 - [The Jailbreak Tax: How Useful are Your Jailbreak Outputs?](https://arxiv.org/abs/2504.10694) (Nikolić et al., 2025)
 - [Training on the Test Task Confounds Evaluation and Emergence](https://arxiv.org/abs/2407.07890) (Dominguez-Olmedo et al., 2024)
 - [Unfamiliar Finetuning Examples Control How Language Models Hallucinate](https://arxiv.org/abs/2403.05612) (Kang et al., 2024)
