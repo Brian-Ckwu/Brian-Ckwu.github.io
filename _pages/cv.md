@@ -1,11 +1,9 @@
 ---
-layout: cv
+layout: page
 permalink: /cv/
 title: cv
-nav: false
-nav_order: 5
-cv_pdf: example_pdf.pdf
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
-toc:
-  sidebar: left
+nav: true
+nav_order: 1
 ---
+
+<embed src="{{ '/assets/pdf/brianckwu_CV.pdf' | relative_url }}" type="application/pdf" width="100%" height="800px" />
